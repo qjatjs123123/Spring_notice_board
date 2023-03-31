@@ -1,0 +1,159 @@
+@charset "EUC-KR";
+	body{
+		hegiht: 100%;
+		background-color: ivory;
+	}
+	ul 
+	{
+	    list-style-type: none;
+	    margin: 0;
+	    padding: 0;
+	    background-color: #333;
+	}
+	ul::after
+	{
+	    content:'';
+	    display: block;
+	    clear:both;
+	}
+	li
+	{
+		float: left;
+	}
+	li a
+	{
+		display: block;
+		color: white;
+	    text-align: center;
+	    padding: 14px 16px;
+	    text-decoration: none;
+	}
+	li a:hover:not(.active) {
+    	background-color: #111;
+	}
+	li:nth-child(3) {
+	    background-color: #4CAF50;
+	}
+	.container{
+		width : 300px;
+	    height : 350px;
+	    font-family: system-ui, serif;
+	    font-size: 2rem;
+	    padding: 3rem;
+	    padding-top : 0px;
+	    border-radius: 1rem;
+	    text-align: center;
+	    vertical-align: text-bottom;
+	    background: floralwhite;
+	    border : 1px solid gray;
+	}
+	
+	.wrapper{
+		margin-top: 3em;
+		display: flex;
+	  	justify-content: center;
+	  	align-items: center;
+	}
+	
+	.main_link{
+		font-size:small;
+	}
+	.name{
+	   margin-top:20px;
+	   width:300px;
+	   height:30px; 
+	   border-radius:5px;
+	}
+	.name1{
+	   margin-top:20px;
+	   width:145px;
+	   height:30px; 
+	   border-radius:5px;
+	}
+	
+	#infor_text{
+		width: 500px;
+		height: 100px;
+		margin:0 auto;
+		left:50%;
+		margin-left:-255px;
+		position:absolute;
+		margin-top:65px;
+	
+	}
+	.go_main{
+		width: 500px;
+		height: 180px;
+		text-align:center;
+		margin:0 auto;
+		left:50%;
+		margin-left:-255px;
+		position:absolute;
+		margin-top:400px;
+	}
+	.id_find{
+		width: 500px;
+		height: 300px;
+		border:1px solid;
+		text-align:center;
+		margin:0 auto;
+		left:50%;
+		margin-left:-255px;
+		position:absolute;
+		margin-top:160px;
+	
+	}
+	#id_article{
+		margin:0 auto;
+		left:50%;
+		margin-left:-255px;
+		position:absolute;
+		background-color: #D4C2AA;
+		width: 125px;
+		height: 50px;
+		cursor:pointer;
+	}
+	#pwd_article{
+		margin:0 auto;
+		left:50%;
+		margin-left:-135px;
+		position:absolute;
+		background-color: #D4C2AA;
+		width: 125px;
+		height: 50px;
+		cursor:pointer;
+		color:red;	
+	}
+	.center{
+	margin-top:20px;
+	   width:250px;
+	   height:30px; 
+    font-size: medium;
+    margin: 0 auto;
+    font-weight: bolder;
+     border-radius:5px;	
+}
+.center_num{
+	height: 30px;
+    width: 112px;
+    font-size: medium;
+    margin: 0 auto;
+    font-weight: bolder;	
+     border-radius:5px;
+}
+.center1 {
+	height: 40px;
+    width: 400px;
+    font-size: medium;
+    margin: 0 auto;
+    font-weight: bolder;
+     border-radius:5px;
+}
+.center2{
+	height: 10px;
+    width: 400px;
+    margin-top : -2px;
+    font-size: small;
+    color: red;
+}
+	

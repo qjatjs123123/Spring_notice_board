@@ -1,0 +1,69 @@
+	@charset "EUC-KR";
+body{
+	text-align : center;
+	hegiht: 100%;
+	background-color: ivory;
+}
+header{
+	color: rgb(124, 77, 16);
+    text-align: center;
+    font-size: x-large;
+    height: 110px;
+
+}
+label{
+	text-align : left;	
+}
+section{
+	text-align : left;
+	font-size : large;
+	width : 400px;
+	margin: 0 auto;
+	paddiing-left : 20px;
+}
+.center{
+	height: 40px;
+    width: 400px;
+    font-size: medium;
+    margin: 0 auto;
+    font-weight: bolder;	
+}
+.center_num{
+	height: 40px;
+    width: 178px;
+    font-size: medium;
+    margin: 0 auto;
+    font-weight: bolder;	
+}
+.center1 {
+	height: 40px;
+    width: 400px;
+    font-size: medium;
+    margin: 0 auto;
+    font-weight: bolder;
+}
+.center2{
+	height: 10px;
+    width: 400px;
+    margin-top : -2px;
+    font-size: small;
+    color: red;
+}
+#input{
+	width:410px;
+	height:50px;
+	
+	background-color:rgb(124, 77,16);
+	font-size:larger;
+	color:white;	
+}
+#emailp{
+	margin-bottom:30px;
+}
+form{
+	text-aling : center;
+	margin : auto;
+}
+.bar{
+	font-size:x-large;
+}

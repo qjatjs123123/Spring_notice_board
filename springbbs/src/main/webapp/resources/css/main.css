@@ -1,0 +1,62 @@
+@charset "EUC-KR";
+	body{
+		hegiht: 100%;
+		background-color: ivory;
+	}
+	ul 
+	{
+	    list-style-type: none;
+	    margin: 0;
+	    padding: 0;
+	    background-color: #333;
+	}
+	ul::after
+	{
+	    content:'';
+	    display: block;
+	    clear:both;
+	}
+	li
+	{
+		float: left;
+	}
+	li a
+	{
+		display: block;
+		color: white;
+	    text-align: center;
+	    padding: 14px 16px;
+	    text-decoration: none;
+	}
+	li a:hover:not(.active) {
+    	background-color: #111;
+	}
+	li:first-child {
+	    background-color: #4CAF50;
+	}
+	.container{
+		width : 300px;
+	    height : 350px;
+	    font-family: system-ui, serif;
+	    font-size: 2rem;
+	    padding: 3rem;
+	    padding-top : 0px;
+	    border-radius: 1rem;
+	    text-align: center;
+	    vertical-align: text-bottom;
+	    background: floralwhite;
+	    border : 1px solid gray;
+	}
+	
+	.wrapper{
+		margin-top: 3em;
+		display: flex;
+	  	justify-content: center;
+	  	align-items: center;
+	}
+	
+	.main_link{
+		font-size:small;
+	}
+	
+	
